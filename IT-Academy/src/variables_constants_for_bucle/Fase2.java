@@ -11,7 +11,7 @@ public class Fase2 {
 		int cont = 0;
 		
 		for (int i = any_traspas; i <= any_naixement; i++) {
-			if(i % 4 == 0) {
+			if(i % anys_entre_traspas == 0) {
 				cont ++;
 			}
 		}
